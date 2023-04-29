@@ -1,4 +1,4 @@
-name: CI
+name: CI for site deployment
 
 on:
   push:
@@ -38,7 +38,7 @@ jobs:
         run: npm run build
         with:
           source: ./
-          
+
       - name: Deploy app (optional)
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
