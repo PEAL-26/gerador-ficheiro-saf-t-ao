@@ -23,4 +23,4 @@
   - Framework frontend
     -React.js ->para criar a UI.
 
-- [] Fornecer documentação sobre como usar a API REST e a UI para que os usuários possam entender facilmente como usar o seu projeto.
+- [] Criar documentação sobre como usar a API REST e a UI para que os usuários possam entender facilmente como usar o seu projeto.
