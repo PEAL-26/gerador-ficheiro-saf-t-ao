@@ -34,8 +34,3 @@ jobs:
 
       - name: Build app
         run: npm run build
-
-      - name: Deploy app (optional)
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        with:
-          folder: build
