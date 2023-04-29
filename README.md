@@ -26,9 +26,9 @@ Contribuições são sempre bem-vindas! Se você encontrar algum problema ou tiv
 
 Se você precisar de ajuda com o Gerador de Arquivos SAF-T, aqui estão algumas opções:
 
-Relatar um problema: se você encontrar um problema com o projeto, por favor, crie um problema no GitHub. Certifique-se de incluir informações sobre o seu sistema operacional, versão do NodeJS e quaisquer outras informações relevantes.
+[Relatar um problema](https://github.com/PEAL-26/gerador-ficheiro-saf-t-ao/issues): se você encontrar um problema com o projeto, por favor, crie um problema no GitHub. Certifique-se de incluir informações sobre o seu sistema operacional, versão do NodeJS e quaisquer outras informações relevantes.
 
-Solicitar recursos: se você tiver alguma sugestão de recurso ou melhoria para o projeto, por favor, crie uma solicitação de recursos no GitHub. Certifique-se de incluir uma descrição clara do recurso que você gostaria de ver adicionado ao projeto.
+[Solicitar recursos](https://github.com/PEAL-26/gerador-ficheiro-saf-t-ao/issues): se você tiver alguma sugestão de recurso ou melhoria para o projeto, por favor, crie uma solicitação de recursos no GitHub. Certifique-se de incluir uma descrição clara do recurso que você gostaria de ver adicionado ao projeto.
 
 [Contribuir com o suporte](CONTRIBUTING.md): se você gostaria de ajudar a responder perguntas dos usuários, fornecer exemplos de código ou de outra forma contribuir para o suporte do projeto, por favor, siga as instruções em CONTRIBUTING.md.
 

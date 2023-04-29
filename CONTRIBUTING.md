@@ -1,6 +1,6 @@
 # Como contribuir
 
-Existem várias maneiras de contribuir para o Gerador de Arquivos SAF-T:
+Existem várias maneiras de contribuir para o Gerador de Ficheiros SAF-T:
 
 Relatando problemas: se você encontrar um problema com o projeto, por favor, crie um problema no GitHub. Certifique-se de incluir informações sobre o seu sistema operacional, versão do NodeJS e quaisquer outras informações relevantes.
 
