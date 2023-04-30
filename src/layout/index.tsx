@@ -11,7 +11,7 @@ type LayoutProps = {
 const NOME_SITE = "Gerador de Ficheiro SAF-T AO";
 const NOT_FOUND = -1;
 const LINKS = [
-  { url: `${BASE_URL}/`, nome: "Home" },
+  { url: `/`, nome: "Home" },
   { url: `${BASE_URL}/documentacao-api`, nome: "Documentação API" },
   { url: `${BASE_URL}/documentacao-agt`, nome: "Documentação AGT" },
 ];
