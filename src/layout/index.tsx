@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+
+import { BASE_URL } from "../config/app";
 import { LogoGreen54w } from "../assets/images";
 
 type LayoutProps = {
@@ -9,9 +11,9 @@ type LayoutProps = {
 const NOME_SITE = "Gerador de Ficheiro SAF-T AO";
 const NOT_FOUND = -1;
 const LINKS = [
-  { url: "/", nome: "Home" },
-  { url: "documentacao-api", nome: "Documentação Api" },
-  { url: "documentacao-agt", nome: "Documentação AGT" },
+  { url: `${BASE_URL}/`, nome: "Home" },
+  { url: `${BASE_URL}/documentacao-api`, nome: "Documentação Api" },
+  { url: `${BASE_URL}/documentacao-agt`, nome: "Documentação AGT" },
 ];
 
 const Layout = ({ children }: LayoutProps) => {
