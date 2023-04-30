@@ -12,8 +12,8 @@ const NOME_SITE = "SAFT-AO Generator";
 const NOT_FOUND = -1;
 const LINKS = [
   { url: `/`, nome: "Home" },
-  { url: `${BASE_URL}/documentacao-api`, nome: "Documentação API" },
-  { url: `${BASE_URL}/documentacao-agt`, nome: "Documentação AGT" },
+  { url: `/documentacao-api`, nome: "Documentação API" },
+  { url: `/documentacao-agt`, nome: "Documentação AGT" },
 ];
 
 const Layout = ({ children }: LayoutProps) => {

@@ -16,18 +16,9 @@ export default function Routes() {
     // <BrowserRouter>
     <HashRouter>
       <RoutesDom>
-        <Route
-          path={`${BASE_URL}/gerador-ficheiro-saf-t-ao/`}
-          element={<Home />}
-        />
-        <Route
-          path={`${BASE_URL}/documentacao-api`}
-          element={<DocumentacaoApi />}
-        />
-        <Route
-          path={`${BASE_URL}/documentacao-agt`}
-          element={<DocumentacaoAgt />}
-        />
+        <Route path={`/gerador-ficheiro-saf-t-ao/`} element={<Home />} />
+        <Route path={`/documentacao-api`} element={<DocumentacaoApi />} />
+        <Route path={`/documentacao-agt`} element={<DocumentacaoAgt />} />
         <Route path="*" element={<Home />} />
       </RoutesDom>
     </HashRouter>
