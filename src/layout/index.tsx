@@ -42,12 +42,12 @@ const Layout = ({ children }: LayoutProps) => {
     <div>
       <nav className="fixed top-0 left-0 w-full border-gray-200 bg-gray dark:bg-gray-800 dark:border-gray-700">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="/" className="flex items-center">
-            <img src={LogoGreen54w} className="h-8 mr-3" alt="Saf-t AO Logo" />
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-              Gerador de Ficheiro SAF-T AO
+          <Link to="/" className="flex">
+            <img src={LogoGreen54w} className="h-8 mr-2" alt="Saf-t AO Logo" />
+            <span className="self-end  font-semibold whitespace-nowrap dark:text-white">
+              Generator
             </span>
-          </a>
+          </Link>
           <button
             data-collapse-toggle="navbar-solid-bg"
             type="button"
