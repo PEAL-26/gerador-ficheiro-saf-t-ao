@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 
 import { BASE_URL } from "../config/app";
 import { LogoGreen54w } from "../assets/images";
@@ -12,16 +12,13 @@ const NOME_SITE = "Gerador de Ficheiro SAF-T AO";
 const NOT_FOUND = -1;
 const LINKS = [
   { url: `${BASE_URL}/`, nome: "Home" },
-  { url: `${BASE_URL}/documentacao-api`, nome: "Documentação Api" },
+  { url: `${BASE_URL}/documentacao-api`, nome: "Documentação API" },
   { url: `${BASE_URL}/documentacao-agt`, nome: "Documentação AGT" },
 ];
 
 const Layout = ({ children }: LayoutProps) => {
   const location = useLocation();
   const [activeLink, setActiveLink] = useState<number | null>(null);
-
-  console.log(process.env.NODE_ENV);
-  console.log(process.env.REACT_APP_BASE_URL);
 
   useEffect(() => {
     let findIndex = LINKS.findIndex(({ url }) => url === location.pathname);
@@ -80,8 +77,8 @@ const Layout = ({ children }: LayoutProps) => {
             <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
               {LINKS.map(({ url, nome }, index) => (
                 <li key={index}>
-                  <a
-                    href={url}
+                  <Link
+                    to={url}
                     className={`block py-2 pl-3 pr-4 rounded ${
                       index === activeLink
                         ? "text-white bg-green md:bg-transparent md:text-green md:p-0 md:dark:text-green dark:bg-green md:dark:bg-transparent"
@@ -90,7 +87,7 @@ const Layout = ({ children }: LayoutProps) => {
                     aria-current="page"
                   >
                     {nome}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
