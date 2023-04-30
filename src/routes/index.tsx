@@ -7,7 +7,7 @@ import {
 
 // Paginas
 import Home from "../pages/home";
-import { BASE_URL } from "../config/app";
+// import { BASE_URL } from "../config/app";
 import DocumentacaoApi from "../pages/documentacao-api";
 import DocumentacaoAgt from "../pages/documentacao-agt";
 

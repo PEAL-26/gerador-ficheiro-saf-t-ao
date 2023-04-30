@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLocation, Link } from "react-router-dom";
 
-import { BASE_URL } from "../config/app";
+// import { BASE_URL } from "../config/app";
 import { LogoGreen54w } from "../assets/images";
 
 type LayoutProps = {
