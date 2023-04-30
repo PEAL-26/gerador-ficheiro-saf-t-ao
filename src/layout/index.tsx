@@ -8,7 +8,7 @@ type LayoutProps = {
   children?: React.ReactNode;
 };
 
-const NOME_SITE = "Gerador de Ficheiro SAF-T AO";
+const NOME_SITE = "SAFT-AO Generator";
 const NOT_FOUND = -1;
 const LINKS = [
   { url: `/`, nome: "Home" },
