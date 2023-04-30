@@ -1,4 +1,9 @@
-import { BrowserRouter, Routes as RoutesDom, Route } from "react-router-dom";
+import {
+  // BrowserRouter,
+  Routes as RoutesDom,
+  Route,
+  HashRouter,
+} from "react-router-dom";
 
 // Paginas
 import Home from "../pages/home";
@@ -8,8 +13,8 @@ import DocumentacaoAgt from "../pages/documentacao-agt";
 
 export default function Routes() {
   return (
-    <BrowserRouter>
-      {/* <HashRouter> */}
+    // <BrowserRouter>
+    <HashRouter>
       <RoutesDom>
         <Route
           path={`${BASE_URL}/gerador-ficheiro-saf-t-ao/`}
@@ -25,7 +30,7 @@ export default function Routes() {
         />
         <Route path="*" element={<Home />} />
       </RoutesDom>
-      {/* </HashRouter> */}
-    </BrowserRouter>
+    </HashRouter>
+    // </BrowserRouter>
   );
 }
