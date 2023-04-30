@@ -20,6 +20,9 @@ const Layout = ({ children }: LayoutProps) => {
   const location = useLocation();
   const [activeLink, setActiveLink] = useState<number | null>(null);
 
+  console.log(process.env.NODE_ENV);
+  console.log(process.env.REACT_APP_BASE_URL);
+
   useEffect(() => {
     let findIndex = LINKS.findIndex(({ url }) => url === location.pathname);
 
