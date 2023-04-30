@@ -1,4 +1,4 @@
-# Gerador do Ficheiro SAF-T-AO
+# SAFT-AO Generator
 
 O projeto é uma ferramenta open source desenvolvida para gerar ficheiros SAF-T (Standard Audit File for Tax purposes) de forma automatizada e fácil. Esses ficheiros são usados para fins fiscais em Angola, e o objetivo do projeto é simplificar o processo de criação desses ficheiros.
 

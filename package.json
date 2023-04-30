@@ -1,9 +1,12 @@
 {
-  "name": "gerador-ficheiro-saf-t-ao",
+  "name": "saft-ao-generator",
   "version": "1.0.0",
   "description": "Ferramenta open source desenvolvida para gerar ficheiros SAF-T",
   "main": "main.ts",
   "scripts": {
+    "start": "fastify start -l info ./src/main.ts",
+    "dev": "fastify start -w -l info -P ./src/main.ts",
+    "prod": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/PEAL-26/gerador-ficheiro-saf-t-ao/issues"
   },
-  "homepage": "https://github.com/PEAL-26/gerador-ficheiro-saf-t-ao#readme"
+  "homepage": "https://github.com/PEAL-26/gerador-ficheiro-saf-t-ao#readme",
+  "dependencies": {
+    "fastify": "^4.17.0",
+    "fastify-cli": "^5.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "tap": "^16.3.4"
+  }
 }
