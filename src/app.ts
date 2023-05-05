@@ -1,9 +1,9 @@
-import Fastify, { FastifyInstance } from "fastify";
+import express, { Express, Request, Response } from "express";
 
-const app: FastifyInstance = Fastify({ logger: true });
+const app = express();
 
-app.get("/", async (request, reply) => {
-  reply.send({ hello: "world" });
+app.get("/", (req: Request, res: Response) => {
+  res.send("Express + TypeScript Server");
 });
 
 export default app;

@@ -1,14 +1,10 @@
 import app from "./app";
 
-const start = async () => {
-  try {
-    await app.listen({ port: 3000 });
+import dotenv from "dotenv";
+dotenv.config();
 
-    const address = app.server.address();
-    const port = typeof address === "string" ? address : address?.port;
-  } catch (err) {
-    app.log.error(err);
-    process.exit(1);
-  }
-};
-start();
+const port = process.env.PORT;
+
+app.listen(port, () => {
+  console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
+});
