@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gerador-ficheiro-saf-t-ao/static/css/main.a491cf8f.css",
-    "main.js": "/gerador-ficheiro-saf-t-ao/static/js/main.190d8afa.js",
-    "static/js/787.eefc4692.chunk.js": "/gerador-ficheiro-saf-t-ao/static/js/787.eefc4692.chunk.js",
-    "index.html": "/gerador-ficheiro-saf-t-ao/index.html",
-    "main.a491cf8f.css.map": "/gerador-ficheiro-saf-t-ao/static/css/main.a491cf8f.css.map",
-    "main.190d8afa.js.map": "/gerador-ficheiro-saf-t-ao/static/js/main.190d8afa.js.map",
-    "787.eefc4692.chunk.js.map": "/gerador-ficheiro-saf-t-ao/static/js/787.eefc4692.chunk.js.map"
+    "main.css": "/saft-ao-generator/static/css/main.a491cf8f.css",
+    "main.js": "/saft-ao-generator/static/js/main.2107bfb3.js",
+    "static/js/787.eefc4692.chunk.js": "/saft-ao-generator/static/js/787.eefc4692.chunk.js",
+    "index.html": "/saft-ao-generator/index.html",
+    "main.a491cf8f.css.map": "/saft-ao-generator/static/css/main.a491cf8f.css.map",
+    "main.2107bfb3.js.map": "/saft-ao-generator/static/js/main.2107bfb3.js.map",
+    "787.eefc4692.chunk.js.map": "/saft-ao-generator/static/js/787.eefc4692.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a491cf8f.css",
-    "static/js/main.190d8afa.js"
+    "static/js/main.2107bfb3.js"
   ]
 }
